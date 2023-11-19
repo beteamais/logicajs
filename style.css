@@ -1,0 +1,48 @@
+*
+{
+  font-family: 'Alfa Slab One', cursive;
+  color: rgb(244, 244, 248)
+
+}
+
+body {
+    display:flex;
+    justify-content: center;
+    background: linear-gradient(
+  90deg,
+  rgb(192, 191, 203) 0%,
+  rgb(149, 149, 188) 35%,
+  rgb(34, 104, 118) 100%
+);
+
+.container{
+
+  position: relative;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 15%;
+}
+
+.container .card{
+  width: 350px;
+  position: relative;
+  height: 400px;
+  background: #f0f0f0;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display:flex;
+  flex-direction: column;
+  box-shadow: 0.5px 10px #e6e6e6;
+  transition:0.3% ease-in-out;
+  margin-top: 5%;
+}
+    
+}
+
+
+
+  
